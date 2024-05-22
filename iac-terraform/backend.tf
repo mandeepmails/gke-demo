@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "thekubekloud"
+   bucket  = "lk-bucket-tfbackend"
    prefix  = "terraform/state"
  }
 }

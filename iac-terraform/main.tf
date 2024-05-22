@@ -66,7 +66,7 @@ module "gke" {
     {
       name                      = "node-pool"
       machine_type              = "e2-medium"
-      node_locations            = "us-west1-a,us-west1-b,us-west1-c"
+      node_locations            = "us-central1-b,us-central1-c"
       min_count                 = 1
       max_count                 = 2
       disk_size_gb              = 30

@@ -1,10 +1,10 @@
 variable "project_id" {
   description = "The project ID to host the cluster in"
-  default     = "modular-edge-183716"
+  default     = "liquid-kite-420714"
 }
 variable "cluster_name" {
   description = "The name for the GKE cluster"
-  default     = "demo-cluster-1"
+  default     = "lk-cluster-1"
 }
 variable "env_name" {
   description = "The environment for the GKE cluster"
@@ -12,7 +12,7 @@ variable "env_name" {
 }
 variable "region" {
   description = "The region to host the cluster in"
-  default     = "us-west1"
+  default     = "us-central1"
 }
 variable "kubernetes_version" {
   description = "The Kubernetes version of the masters"
